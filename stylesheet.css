@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  padding: 15px 30px;
+}
+.logo {
+  float: left;
+  padding: 20px;
+  font-size: 28px;
+}
+.heading-1 {
+  font-size: 3rem;
+}
+
+.nav-items {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.nav-items li {
+  display: inline-block;
+}
+
+.btn {
+  float: right;
+  padding: 15px 20px;
+  margin-top: 25px;
+  background-color: rgb(169, 210, 249);
+  color: rgb(87, 149, 215);
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+li {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.box1 {
+  width: 40vw;
+  vertical-align: middle;
+}
+.box2 {
+  /* width:40vw; */
+  vertical-align: middle;
+
+  text-align: center;
+}
+.text-section {
+  width: 30vw;
+}
+
+.heading-2 {
+  color: rgb(65, 157, 244);
+  margin-top: 12px;
+}
+.box1 p {
+  width: 100%;
+  font-size: 17px;
+  text-align: left;
+  margin-top: 10px;
+}
+.navbar {
+  text-align: center;
+}
+
+.btn2 {
+  padding: 22px 35px;
+  margin-top: 35px;
+  border-radius: 15px;
+  background-color: rgb(81, 170, 253);
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+.image {
+  width: 27vw;
+  display: inline;
+}
+.box {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #878a8a;
+}
+
+.container-2 {
+  margin: 6rem 6rem;
+}
+
+
+column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.bg-color{
+  background-color:rgb(81, 170, 253);
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contain {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
